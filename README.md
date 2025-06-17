@@ -1,4 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SaaS Agendamento Clínica
+
+Sistema de agendamento para clínicas desenvolvido com as mais modernas tecnologias do mercado.
+
+## 🚀 Tecnologias
+
+- [Next.js 14](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+
+## 🛠️ Configuração do Ambiente
+
+1. Clone o repositório
+
+```bash
+git clone https://github.com/Jimmy-Vaniski/Saas-agendamento-clinica.git
+```
+
+2. Instale as dependências
+
+```bash
+npm install
+```
+
+3. Execute o projeto em desenvolvimento
+
+```bash
+npm run dev
+```
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## Getting Started
 
