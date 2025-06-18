@@ -4,13 +4,27 @@ Sistema de agendamento para clínicas desenvolvido com as mais modernas tecnolog
 
 ## 🚀 Tecnologias
 
+### Core
+
 - [Next.js 15](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [React 19](https://react.dev/)
+
+### Estilização
+
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Drizzle ORM](https://orm.drizzle.team/)
+
+### Banco de Dados
+
 - [PostgreSQL](https://www.postgresql.org/)
+- [Drizzle ORM](https://orm.drizzle.team/) - ORM para TypeScript
+- [node-postgres (pg)](https://node-postgres.com/) - Driver PostgreSQL
+
+### Desenvolvimento
+
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
+- [dotenv](https://www.npmjs.com/package/dotenv)
 
 ## 🛠️ Configuração do Ambiente
 
@@ -26,11 +40,39 @@ git clone https://github.com/Jimmy-Vaniski/Saas-agendamento-clinica.git
 npm install
 ```
 
-3. Execute o projeto em desenvolvimento
+3. Configure as variáveis de ambiente
+   Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
+
+```env
+DATABASE_URL="sua-url-do-postgresql"
+```
+
+4. Execute o projeto em desenvolvimento
 
 ```bash
 npm run dev
 ```
+
+## 📝 Banco de Dados
+
+### Estrutura
+
+O projeto utiliza Drizzle ORM com PostgreSQL. A estrutura do banco inclui:
+
+- Users (Usuários)
+- Clinics (Clínicas)
+- Doctors (Médicos)
+- Patients (Pacientes)
+- Appointments (Agendamentos)
+
+### Comandos do Drizzle
+
+```bash
+# Aplicar migrações
+npx drizzle-kit push
+```
+
+**Nota**: Execute os comandos do Drizzle no terminal CMD do Windows para melhor compatibilidade.
 
 ## 📝 Licença
 
