@@ -4,9 +4,11 @@ Sistema de agendamento para clínicas desenvolvido com as mais modernas tecnolog
 
 ## 🚀 Tecnologias
 
-- [Next.js 14](https://nextjs.org/)
+- [Next.js 15](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [Drizzle ORM](https://orm.drizzle.team/)
+- [PostgreSQL](https://www.postgresql.org/)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 
