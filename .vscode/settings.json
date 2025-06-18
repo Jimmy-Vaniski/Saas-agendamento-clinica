@@ -12,5 +12,8 @@
   ],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
+  },
+  "emmet.includeLanguages": {
+    "postcss": "css"
   }
 }
